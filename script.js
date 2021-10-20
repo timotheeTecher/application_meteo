@@ -1,4 +1,3 @@
-// clé OpenWeatherMap : 22b86141be75f2a86c6723c30425b89e
 
 function recevoirTemperature(ville) {
     const url = 'https://api.openweathermap.org/data/2.5/weather?q=' + ville + '&appid=22b86141be75f2a86c6723c30425b89e&units=metric';
