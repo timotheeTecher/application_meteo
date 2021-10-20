@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(left, #FFFFFF, #6DD5FA, #2980B9);
+}
+
+#conteneur_principal {
+    width: 400px;
+    height: 280px;
+    margin: 190px auto 0 auto;
+    padding-top: 25px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 13px;
+    font-weight: normal;
+    font-size: 3.3em;
+}
+
+#conteneur_temperature {
+    margin-top: 13px;
+    margin-bottom: 30px;
+    font-size: 2.8em;
+}
+
+#bouton_changer_de_ville {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    background: #09367b;
+    cursor: pointer;
+}
+
+#bouton_changer_de_ville:hover {
+    background: #02c9ff;
+
+}
+
+#bouton_changer_de_ville p {
+    padding-top: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
